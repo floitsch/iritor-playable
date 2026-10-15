@@ -1,0 +1,18 @@
+{
+  "13": "STOP",
+  "100": "MoveCameraLeft",
+  "102": "MoveCameraRight",
+  "104": "MoveCameraUp",
+  "98": "MoveCameraDown",
+  "105": "MoveCameraZoomIn",
+  "99": "MoveCameraZoomOut",
+  "101": "MoveCameraReset",
+  "65": "MovePlayerTurnLeft",
+  "68": "MovePlayerTurnRight",
+  "87": "MovePlayerForward",
+  "88": "MovePlayerBackward",
+  "74": "MovePlayerStrafeLeft",
+  "76": "MovePlayerStrafeRight",
+  "83": "ToggleStatisticsPanel",
+  "81": "ToggleConsole"
+}

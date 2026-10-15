@@ -1,0 +1,121 @@
+{
+  "rectangles": {
+    "INVENTORY_BACKGROUND_SRC": [
+      0.0,
+      230.0,
+      512.0,
+      816.0
+    ],
+    "INVENTORY_BACKGROUND_TRG": [
+      0.0,
+      25.0,
+      512.0,
+      611.0
+    ],
+    "INVENTORY_MALE_BACKGROUND_SRC": [
+      516.0,
+      265.0,
+      696.0,
+      498.0
+    ],
+    "INVENTORY_MALE_BACKGROUND_TRG": [
+      165.0,
+      61.0,
+      345.0,
+      294.0
+    ],
+    "INVENTORY_CLOSEBUTTON_TRG": [
+      450.0,
+      35.0,
+      500.0,
+      48.0
+    ],
+    "SLOTS_HEAD": [
+      290.0,
+      76.0,
+      342.0,
+      128.0
+    ],
+    "SLOTS_BODY": [
+      226.0,
+      104.0,
+      278.0,
+      182.0
+    ],
+    "SLOTS_ARM": [
+      161.0,
+      76.0,
+      213.0,
+      128.0
+    ],
+    "SLOTS_LEG": [
+      226.0,
+      194.0,
+      278.0,
+      272.0
+    ],
+    "SLOTS_PRIMARY": [
+      161.0,
+      168.0,
+      213.0,
+      298.0
+    ],
+    "SLOTS_SECONDARY": [
+      290.0,
+      168.0,
+      342.0,
+      298.0
+    ]
+  },
+  "constants": {
+    "INVENTORY_SLOTSIZE": 24,
+    "INVENTORY_SLOTFRAME": 2,
+    "INVENTORY_TOPFRAME": 21,
+    "INVENTORY_LEFTFRAME": 120
+  },
+  "functions": [
+    {
+      "name": "GetItemTargetRect",
+      "sha256": "58d1267c00b27a6886d9528ec5730578c314f97f1c1d5c1b606e1454a501d921"
+    },
+    {
+      "name": "GetSlotRect",
+      "sha256": "afd9de5600b21518c2dd07c34cea584c1a1a7a3a7a081a8b1192f9dffedac23d"
+    },
+    {
+      "name": "GetSlotByCoordinates",
+      "sha256": "40bc1ce0a4f587125cf322028ea223c178fc2c6125d2535c82a51e9482c51d2b"
+    },
+    {
+      "name": "CheckBounds",
+      "sha256": "04812fd59235cbcb1fb7dae89ec6ec2679543b7084555542e97a3a7038ec5315"
+    }
+  ],
+  "sources": [
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/ui_hardcoded.cpp",
+      "sha256": "e7fa3e062d2f7e6f6f7a084144d108f4566cdaa8b66705a6ef71346b81356921"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/ui_hardcoded.h",
+      "sha256": "1ebd7e49bd98b6c40ce1bf1709769c91ad0b31494ea30e4d83533bf68eed9656"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/dataaccess/ui_const.cpp",
+      "sha256": "77d8aca31e97bc1dffc293859ea88cb7153516e2f26b038b894563b3894d5170"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/game/controls/inventorycontrol.cpp",
+      "sha256": "1f6bf7645ca00cd4cdedba6a7eed6f81d86f23b2e04a7e53772d079b0eae7d4c"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/shared/utility/mist/inventory.h",
+      "sha256": "8ec9cf99fcd3e1033541ea07cba6b33a85c43f88cd45434a136f99dc92873e80"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/modules/ui/ui_inventorymanager.cpp",
+      "sha256": "be965df1ae1fff2cbae0cbde6221b05016f0ef46ba58386fee3151f0de4d38db"
+    }
+  ],
+  "qualification": "Original inventory background, male overlay, six equipment rectangles, bag-cell pitch and four original coordinate functions. Browser item selection/local transactions remain adapters; the full native cursor/RPC inventory manager is not claimed restored. Source hides the male overlay for female characters. Source weapon centering and strict/footprint-adjusted hit bounds are retained. The panel is fitted uniformly below the vital strip when the browser viewport is shorter than the original611pixel layout. Selection outline and external transaction buttons remain browser adapters."
+}

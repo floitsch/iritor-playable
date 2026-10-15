@@ -1,0 +1,101 @@
+{
+  "rectangles": {
+    "VITAL_BACKGROUND_SRC": [
+      116.0,
+      0.0,
+      880.0,
+      25.0
+    ],
+    "VITAL_BACKGROUND_TRG": [
+      116.0,
+      0.0,
+      880.0,
+      25.0
+    ],
+    "VITAL_HPBAR_SRC": [
+      516.0,
+      199.0,
+      696.0,
+      212.0
+    ],
+    "VITAL_HPBAR_TRG": [
+      123.0,
+      4.0,
+      303.0,
+      17.0
+    ],
+    "VITAL_SPBAR_SRC": [
+      516.0,
+      213.0,
+      696.0,
+      226.0
+    ],
+    "VITAL_SPBAR_TRG": [
+      322.0,
+      4.0,
+      502.0,
+      17.0
+    ],
+    "VITAL_EPBAR_SRC": [
+      516.0,
+      227.0,
+      696.0,
+      240.0
+    ],
+    "VITAL_EPBAR_TRG": [
+      521.0,
+      4.0,
+      701.0,
+      17.0
+    ]
+  },
+  "font": "Arial 10",
+  "atlas": {
+    "source": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/application/data/textures/UserInterface/uisurf_2.dds",
+    "sha256": "b4eb7849039ff7b9085cedc2b2cae6bbed6aabd96a8ede1ed116512d1d182fbb",
+    "dimensions": [
+      2048,
+      2048
+    ]
+  },
+  "bar_body_sha256": "cb2daa0ec6f48b49ef17a7844b28550cf00439946fc6e1ec197d2abb73668a84",
+  "sources": [
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/dataaccess/ui_const.cpp",
+      "sha256": "77d8aca31e97bc1dffc293859ea88cb7153516e2f26b038b894563b3894d5170"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/shared/complex/bar.cpp",
+      "sha256": "d222cbafd6c8db839669f1aa356995a569387f522bae4ad0267bda987014d113"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/game/controls/vitalbarcontrol.cpp",
+      "sha256": "5d705a6bb36d7994c0ab9ee5336d4c4e609efc424e56f855abde7c51cf959bf2"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/utility/ui/shared/basic/text.cpp",
+      "sha256": "beccf5d46008d4a520ccc614a58ab612e4c7f1786af9560dfd6fde6946b2ace2"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/game_content/source/client/modules/ui/ui_statsscreencontrol.cpp",
+      "sha256": "5204fd4a5e6e3e79fbe1e33db3405d7db92b2e961fd617af66f5f95fac20a6ec"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/subsystem_graphic_new/source/rendering_backend_d3d/source/device.cpp",
+      "sha256": "6ca3409e2bc31542cd9f8cb482e2c267640682d413095eb8d324cbb420f1e6fe"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/framework/public/lowlevel.hpp",
+      "sha256": "d76bb175b680f37884b5400020da545454837c1ee814346c08a977a38354f67e"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/application/data/fonts/arialn10.font",
+      "sha256": "eedea18653f5139ffd37062715530ec8fb319e4ee5fb2b2a9cac8b48b925657f"
+    },
+    {
+      "path": "restored/Wootsoft-Backup/alienbrainWork/Iritor Core/application/data/textures/UserInterface/uisurf_2.dds",
+      "sha256": "b4eb7849039ff7b9085cedc2b2cae6bbed6aabd96a8ede1ed116512d1d182fbb"
+    }
+  ],
+  "qualification": "Original vital-strip source/target rectangles, artwork and unchanged CBar::UpdateBar. Browser Canvas draws the source pixel coordinates at900x600 scene resolution; source sprite rectangle edges truncate to integers while target edges remain fractional. Browser Arial may differ from Windows font rasterization. Baseline encounter fixture has only HP; SP/EP initialize from the preserved profile when its character state is active. No new regeneration or resource spending is invented."
+}

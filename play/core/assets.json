@@ -1,0 +1,56 @@
+{
+  "script": "scene.js",
+  "bytes": 511394902,
+  "download_bytes": 117555363,
+  "source_data_sha256": "d835ce73c20f403e730f762f1dbc8a88700ece3fae2610c531634c4eb0365136",
+  "parts": [
+    {
+      "path": "artwork/part-00-c61e68d9d653.bin",
+      "bytes": 67108864,
+      "download_bytes": 9360752,
+      "sha256": "c61e68d9d6537ee2c26f103a27b28e0cafdf02694686c54daf99b70bce2d1b6e"
+    },
+    {
+      "path": "artwork/part-01-ae09527d1a1a.bin",
+      "bytes": 67108864,
+      "download_bytes": 23553768,
+      "sha256": "ae09527d1a1aed2af4bc7f0af3543a16342e33781aa4954df1a291d01ccbbce3"
+    },
+    {
+      "path": "artwork/part-02-121c34b87d0e.bin",
+      "bytes": 67108864,
+      "download_bytes": 9103993,
+      "sha256": "121c34b87d0e90de93fa564be0846712c68c93761563a1cff3539e0027059dc7"
+    },
+    {
+      "path": "artwork/part-03-76e2fc4b1554.bin",
+      "bytes": 67108864,
+      "download_bytes": 8598651,
+      "sha256": "76e2fc4b1554cbf399677438d8492a328fb0e7ea0a6f2eaee89a3df66af363fd"
+    },
+    {
+      "path": "artwork/part-04-83e3957a4628.bin",
+      "bytes": 67108864,
+      "download_bytes": 8737316,
+      "sha256": "83e3957a462883ff363ed53fa7072c883e1ee1a20c34078f5375212d363a3326"
+    },
+    {
+      "path": "artwork/part-05-8db875138409.bin",
+      "bytes": 67108864,
+      "download_bytes": 17314130,
+      "sha256": "8db87513840905b777b429a364f26cca57d3ce52eb471cb281b3f782c61ce402"
+    },
+    {
+      "path": "artwork/part-06-e94316847479.bin",
+      "bytes": 67108864,
+      "download_bytes": 15395853,
+      "sha256": "e94316847479b0673132b3d8ccc216851b2fd84e13d3a497b6a271c337bbac1d"
+    },
+    {
+      "path": "artwork/part-07-7b87c832072c.bin",
+      "bytes": 41632854,
+      "download_bytes": 25490900,
+      "sha256": "7b87c832072ca135f53446c3ed655cea3ccfc9b7cafdb2c06a24dd2cfa01d5e9"
+    }
+  ]
+}

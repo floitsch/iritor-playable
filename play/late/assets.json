@@ -1,0 +1,14 @@
+{
+  "script": "actor.js",
+  "bytes": 27519972,
+  "download_bytes": 7857002,
+  "source_data_sha256": "df0ca4e6ed228e887db550a4dd4f2d89400245d42b3c3fdcd54ac938e87868d4",
+  "parts": [
+    {
+      "path": "artwork/part-00-7b517acbd48a.bin",
+      "bytes": 27519972,
+      "download_bytes": 7857002,
+      "sha256": "7b517acbd48a6c1551f0b002b81c8e2f139b601f4e8f6a7a0e32bd00ee7e711e"
+    }
+  ]
+}

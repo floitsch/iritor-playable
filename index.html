@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Iritor — playable again</title>
+  <meta name="description" content="Explore two recovered versions of Wootsoft's Iritor, watch its evolution and discover stories from the original code archives.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><a class="wordmark" href="./">Iritor</a><nav aria-label="Main"><a href="#play">Play</a><a href="#film">The film</a><a href="archives.html">From the archives</a></nav></header>
+<main>
+  <section class="intro">
+    <p class="eyebrow">Wootsoft · the surviving 2001–2004 builds</p>
+    <h1>Iritor,<br>playable again.</h1>
+    <p class="lead">A game recovered from its backups. Explore two versions in your browser, follow its evolution, and take a look inside the old development archives.</p>
+    <div class="actions"><a class="button" href="#play">Explore the game</a><a class="text-link" href="#film">Watch its evolution ↗</a></div>
+    <figure class="hero"><img src="images/core.png" alt="The restored Iritor landscape, with its original character and creatures" width="900" height="600"><figcaption>Original artwork, surviving game code, and a new way to run it.</figcaption></figure>
+  </section>
+  <section id="play" class="section">
+    <div class="section-heading"><p class="eyebrow">Two paths through the backups</p><h2>Choose a version.</h2><p>These are restored development builds. The later one comes from a different, simpler code branch.</p></div>
+    <article class="edition">
+      <div><p class="eyebrow">Pre-rewrite Core · source cohort around 2003</p><h3>The fuller game</h3><p>Explore the terrain and forests, encounter Jorgalosks and Mutaloi, collect loot, and equip weapons and armour. Choose a character, spend experience and save your progress.</p><a class="button" href="play/core/">Play Core</a><p class="small" id="core-size">Desktop keyboard recommended. The first load downloads the game artwork.</p><p class="small">Start with W/S to move, A/D to turn, Space to jump, F to attack, I for inventory and C for your character. The page includes buttons and further controls.</p></div>
+      <figure><img src="images/core.png" alt="A character exploring the Core landscape" width="900" height="600" loading="lazy"></figure>
+    </article>
+    <article class="edition alternate">
+      <div><p class="eyebrow">February 2004 · the latest surviving repository snapshot</p><h3>The later prototype</h3><p>Walk the landscape alongside prototype characters, look up at the moving cloud layers, and try the interface, console and camera controls.</p><a class="button secondary" href="play/late/">Play the later prototype</a><p class="small" id="late-size">A smaller download. Desktop keyboard recommended.</p><p class="small">W/X moves, A/D turns and J/L strafes. S opens statistics, Q opens the console. Its empty statistics fields and unfinished combat reflect the surviving prototype.</p></div>
+      <figure><img src="images/late.png" alt="The later Iritor prototype with its landscape and moving characters" width="1024" height="768" loading="lazy"></figure>
+    </article>
+    <p class="note">Both versions run locally in your browser, without an account or game server. Rendering, input and local simulation have been adapted for the browser. Core saves retain your character and equipment in a fresh encounter, rather than saving the entire world. Use its Export button to keep a portable copy.</p>
+  </section>
+  <section id="film" class="section film">
+    <div><p class="eyebrow">From early experiments to a working game</p><h2>Watch Iritor evolve.</h2><p>A nine-minute journey through the surviving versions: terrain, characters, creatures, inventory, weapons, combat, and the later engine branch. Short labels connect the features to what is happening on screen.</p><a id="video-link" class="button" hidden>Watch on YouTube ↗</a><p id="video-pending" class="small">The evolution film will be linked here when its YouTube upload is available.</p><p class="small">Archived footage and new restoration captures are identified. A feature appearing in a surviving build does not always tell us exactly when it was introduced.</p></div>
+    <img src="images/film.png" alt="A preview of the Iritor evolution film" width="1280" height="960" loading="lazy">
+  </section>
+  <section class="section archive-teaser"><p class="eyebrow">From the archives</p><h2>“Finally a version that runs.”</h2><p>A player and a monster. A DirectX beta workaround. An object that left its ID behind. The code and CVS messages still have a few stories to tell.</p><a class="text-link" href="archives.html">Read the discoveries →</a></section>
+  <details class="restoration"><summary>About this restoration</summary><p>Iritor was developed at Wootsoft. These backups preserve development work from 2001–2004. This project brings selected builds back to life, documents their history and keeps their original artwork and behaviour where possible.</p><p>The Core source/art pairing is not dated precisely. The February 2004 snapshot marks the end of the preserved repository, rather than a confirmed date for the company's closure. The film distinguishes source dates, original footage and later compatibility work.</p><p>These browser editions are representative single-player restorations. Core's native item transactions, some character options, sound, scenery collision and further rendering effects remain incomplete. No new combat or statistics system has been invented for the unfinished later branch.</p></details>
+</main>
+<footer><span>Iritor / Wootsoft · recovered from the original backups</span><a href="https://github.com/floitsch/iritor-playable">This site on GitHub ↗</a></footer>
+<script src="site.js"></script>
+</body></html>
