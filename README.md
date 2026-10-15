@@ -12,5 +12,5 @@ The loader checks each download and supplies the original bytes to Emscripten.
 There is no game-server dependency. The preserved prototype limitations and
 browser adaptations are explained on the welcome and play pages.
 
-Set `video_url` in `site.json` to the evolution film's HTTPS YouTube URL when it
-is uploaded. The page will then display the Watch button.
+The evolution film is on [YouTube](https://youtu.be/jMSoqOktMG4).
+To change the link, update `video_url` in `site.json`.
